@@ -38,7 +38,7 @@ Result column: filled after execution. See [bug-reports.md](bug-reports.md) for 
 
 | ID | Title | Preconditions | Steps | Expected Result | Priority | Result |
 |---|---|---|---|---|---|---|
-| TC-17 | Complete a full checkout | 1 item in cart | 1. Open cart 2. Click Checkout 3. Enter first name, last name, postal code 4. Continue 5. Finish | Order completes with the "Thank you for your order!" confirmation | High | Pass with standard_user ([screenshot](https://github.com/user-attachments/assets/1d458cf3-e52e-4151-8f3f-9866395c2a43)); fails with error_user (BUG-05, BUG-06) |
+| TC-17 | Complete a full checkout | 1 item in cart | 1. Open cart 2. Click Checkout 3. Enter first name, last name, postal code 4. Continue 5. Finish | Order completes with the "Thank you for your order!" confirmation | High | Pass with standard_user ([screenshot](https://github.com/user-attachments/assets/8861c6b5-0d1d-4c1e-878c-fe986064433a)); fails with error_user (BUG-05, BUG-06) |
 | TC-18 | Checkout with empty first name | 1 item in cart, on checkout form | 1. Leave First Name empty 2. Fill last name and postal code 3. Click Continue | Submission is rejected with the error "First Name is required" | High | Pass with standard_user; see BUG-05 for error_user |
 | TC-19 | Checkout overview shows correct totals | 2 items in cart | 1. Complete the information form 2. On the overview page check Item total, Tax, and Total | Item total equals the sum of item prices; Total equals item total plus tax | Medium | Pass |
 | TC-20 | Cancel checkout returns to cart | 1 item in cart, on checkout form | 1. Click Cancel | User returns to the cart page and cart contents are unchanged | Low | Pass |
