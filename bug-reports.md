@@ -25,7 +25,7 @@ Environment: Chrome, https://www.saucedemo.com. Password for all accounts: `secr
 **Expected:** Each product shows its own correct image, as it does for `standard_user`.
 **Actual:** Every product shows the same incorrect image.
 
-**Evidence:** ![BUG-01: all products show the same wrong image](https://github.com/user-attachments/assets/25379909-1a61-40b1-af48-09a349533003)
+**Evidence:** ![BUG-01: all products show the same wrong image](https://github.com/user-attachments/assets/05db1984-2d7f-46eb-819c-74a7d20fff93)
 
 ---
 
@@ -117,7 +117,7 @@ Environment: Chrome, https://www.saucedemo.com. Password for all accounts: `secr
 **Expected:** Last Name accepts the typed text; if it were left empty, the form would reject the submission with "Last Name is required".
 **Actual:** The field stays empty after typing, and the form proceeds to the overview page anyway.
 
-**Evidence:** ![BUG-05: checkout overview reached with an empty Last Name](https://github.com/user-attachments/assets/437ce9d6-ca58-4f75-b8c8-dc6b09651c9f)
+**Evidence:** ![BUG-05: checkout overview reached with an empty Last Name](https://github.com/user-attachments/assets/5043b2c7-0366-4601-89ca-e405f0ba0a4b)
 
 ---
 
@@ -141,7 +141,7 @@ Environment: Chrome, https://www.saucedemo.com. Password for all accounts: `secr
 **Expected:** The order completes and the "Thank you for your order!" confirmation appears.
 **Actual:** Nothing happens. The user cannot complete a purchase.
 
-**Evidence:** ![BUG-06: Finish button unresponsive on the overview page](https://github.com/user-attachments/assets/0619d9ff-a4c4-4d7f-9b54-36acb366f4b3)
+**Evidence:** ![BUG-06: Finish button unresponsive on the overview page](https://github.com/user-attachments/assets/13fee720-cc55-46ce-b007-a5fed4d3cd48)
 
 ---
 
